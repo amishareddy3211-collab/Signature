@@ -1,0 +1,11 @@
+<label class="label">SELECT YOUR CITY (300 Cities Available)</label>
+<select id="adCity" class="input" style="font-weight:800">
+<option value="">-- Select City --</option>
+</select>
+<script src="cities.js"></script>
+<script>
+const adCitySel = document.getElementById('adCity');
+SIGNATURE_CITIES.sort().forEach(c=>{
+ let o=document.createElement('option'); o.value=c; o.textContent=c; adCitySel.appendChild(o);
+});
+</script>
