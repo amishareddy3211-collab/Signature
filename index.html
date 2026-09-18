@@ -1,0 +1,28 @@
+<!-- CITY SELECTOR - SIGNATURE 300 CITIES -->
+<div style="background:#fff;padding:12px;border-bottom:1px solid #eee;display:flex;gap:8px;overflow-x:auto">
+<select id="citySelect" onchange="changeCity(this.value)" style="padding:10px 14px;border-radius:10px;border:1.5px solid #111;font-weight:800;min-width:160px">
+<option value="all">🌐 All 300 Cities</option>
+</select>
+<button onclick="location.href='post-ad.html'" style="background:#D9FF66;border:none;padding:10px 16px;border-radius:10px;font-weight:800;white-space:nowrap">+ POST IN YOUR CITY</button>
+</div>
+
+<script src="cities.js"></script>
+<script>
+// Load Cities
+const sel = document.getElementById('citySelect');
+SIGNATURE_CITIES.sort().forEach(c=>{
+  let o=document.createElement('option'); o.value=c.toLowerCase(); o.textContent=c; sel.appendChild(o);
+});
+// URL se city pakdo
+let urlCity = new URLSearchParams(location.search).get('city') || 'all';
+sel.value = urlCity;
+function changeCity(city){
+  if(city==='all') location.href='index.html';
+  else location.href='index.html?city='+city;
+}
+// Ads filter by city
+function filterByCity(ads, city){
+  if(city==='all') return ads;
+  return ads.filter(a=> (a.city||'').toLowerCase()===city);
+}
+  </script>
