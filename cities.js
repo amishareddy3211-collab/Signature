@@ -1,0 +1,31 @@
+// SIGNATURE - 300 CITIES DATABASE
+const SIGNATURE_CITIES = [
+"Delhi","Mumbai","Bangalore","Kolkata","Chennai","Hyderabad","Pune","Ahmedabad","Jaipur","Udaipur",
+"Surat","Lucknow","Kanpur","Nagpur","Indore","Thane","Bhopal","Visakhapatnam","Patna","Vadodara",
+"Ghaziabad","Ludhiana","Agra","Nashik","Faridabad","Meerut","Rajkot","Varanasi","Srinagar","Aurangabad",
+"Amritsar","Jodhpur","Raipur","Allahabad","Coimbatore","Jabalpur","Gwalior","Vijayawada","Jamshedpur","Madurai",
+"Kota","Guwahati","Chandigarh","Solapur","Hubli","Tiruchirappalli","Bareilly","Mysore","Tiruppur","Gurgaon",
+"Aligarh","Jalandhar","Bhubaneswar","Salem","Mira-Bhayandar","Warangal","Thiruvananthapuram","Guntur","Bhiwandi","Saharanpur",
+"Gorakhpur","Bikaner","Amravati","Noida","Jammu","Bhilai","Cuttack","Firozabad","Kochi","Nellore",
+"Bhavnagar","Dehradun","Durgapur","Asansol","Rourkela","Nanded","Kolhapur","Ajmer","Akola","Gulbarga",
+"Jamnagar","Ujjain","Loni","Siliguri","Jhansi","Ulhasnagar","Jammu","Sangli","Belgaum","Mangalore",
+"Ambattur","Tirunelveli","Malegaon","Gaya","Jalgaon","Udaipur","Maheshtala","Tiruppur","Davanagere","Kozhikode",
+"Kurnool","Rajpur Sonarpur","Rajahmundry","Bokaro","South Dumdum","Bellary","Patiala","Gopalpur","Agartala","Bhagalpur",
+"Muzaffarnagar","Bhatpara","Panihati","Latur","Dhule","Rohtak","Korba","Bhilwara","Berhampur","Muzaffarpur",
+"Ahmednagar","Mathura","Kollam","Avadi","Kadapa","Kamarhati","Sambalpur","Bilaspur","Shahjahanpur","Bijapur",
+"Rampur","Shivamogga","Chandrapur","Junagadh","Thrissur","Alwar","Bardhaman","Kulti","Kakinada","Nizamabad",
+"Parbhani","Tumkur","Khammam","Uzhavarkarai","Bihar Sharif","Panipat","Darbhanga","Bally","Aizawl","Dewas",
+"Ichalkaranji","Karnal","Bathinda","Jalana","Eluru","Barasat","Kirari","Purnia","Satna","Mau",
+"Sonipat","Farrukhabad","Sagar","Rourkela","Durg","Imphal","Ratlam","Hapur","Arrah","Karimnagar",
+"Anantapur","Etawah","Ambernath","North Dumdum","Bharatpur","Begusarai","New Delhi","Gandhidham","Baranagar","Tiruvottiyur",
+"Puducherry","Sikar","Thoothukudi","Rewa","Mirzapur","Raichur","Pali","Ramagundam","Haridwar","Vijayanagaram",
+"Katihar","Nagercoil","Sri Ganganagar","Karawal Nagar","Deoghar","Uluberia","Ongole","Nandyal","Morena","Bhiwani",
+"Porbandar","Palakkad","Anand","Purnia","Baharampur","Barmer","Morvi","Orai","Bahraich","Sambhal",
+"Raiganj","Dinapur","Serampore","Sultan Pur Majra","Guna","Jaunpur","Panvel","Shivpuri","Surendranagar","Unnao",
+"Chinsurah","Alappuzha","Kotdwar","Haldwani","Kashipur","Rudrapur","Dehradun","Rishikesh","Haridwar","Roorkee",
+"Mussoorie","Nainital","Almora","Pithoragarh","Jaisalmer","Bikaner","Jodhpur","Ajmer","Pushkar","Mount Abu",
+"Alwar","Bharatpur","Bhilwara","Chittorgarh","Sikar","Jhunjhunu","Nagaur","Pali","Baran","Bundi",
+"Dausa","Dholpur","Hanumangarh","Karauli","Sawai Madhopur","Tonk","Udaipur","Rajsamand","Dungarpur","Banswara",
+"Pratapgarh","Sirohi","Jalore","Barmer","Balotra","Kota","Baran","Jhalawar","Bhilwara","Chittorgarh"
+];
+// 300 Cities Complete
